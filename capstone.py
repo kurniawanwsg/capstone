@@ -7,7 +7,6 @@ st.set_page_config(layout='wide')
 df1 = pd.read_csv('pertumbuhan_ekonomi_gdpusd.csv')
 df2 = pd.read_csv('iiikn_tahunan.csv')
 df3 = pd.read_csv('pertumbuhan_jumlah_investor_rev.csv')
-df_provinsi = pd.read_csv('iiik_provinsi_2022.csv')
 
 st.title("Pengaruh Literasi Keuangan Terhadap Pertumbuhan Investor di Indonesia")
 st.markdown (
